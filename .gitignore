@@ -1,0 +1,11 @@
+.vscode/
+*.code-workspace
+/.vscode/
+.history/
+**/.vscode/
+.vscode-server/
+.vs/
+.idea/
+.vscode-insiders/
+.vscode-test/
+*.exe
