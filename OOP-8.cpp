@@ -3,7 +3,7 @@ This code demos
     - basic use of constructor
 
 Constructors
-    - these are special member functions which are called auto when object is initilized
+    - these are special member functions which are auto invoked when object is initilized
 
 Types 
     - default constructor : no instructors
@@ -42,6 +42,7 @@ void Base :: display(){
 
 int main(){
     // object creation, which auto calls constructors
+    // this is parameterized constructor
     Base b("John");
     b.display();
 }
