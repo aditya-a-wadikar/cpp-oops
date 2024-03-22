@@ -4,6 +4,7 @@ This code demos
 
 Constructors
     - these are special member functions which are auto invoked when object is initilized
+    - they do not return anything, not even void
 
 Types 
     - default constructor : no instructors
