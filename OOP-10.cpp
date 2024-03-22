@@ -26,12 +26,10 @@ void Complex :: print(){
 };
 
 int main(){
-    // object declaration and defination
-
-
-    // this is implicit call
+    // this is implicit call with declaration
     Complex c(4, 5);
-    // this is explicit call
+
+    // this is explicit call with declaration
     Complex d = Complex(5, 7);
     
     c.print();
