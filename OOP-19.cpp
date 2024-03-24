@@ -57,7 +57,7 @@ int main() {
     
     // this line will give inaccessible error
     // b cannot be accessed using derived object
-    cout << derived.b << endl;
+    // cout << derived.b << endl;
     cout << derived.c << endl;
     
     return 0;
