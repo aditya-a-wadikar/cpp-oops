@@ -32,9 +32,9 @@ using namespace std;
 
 class Base{
     private:
-        int a;
-        int b;
+        int b = 20;
     protected:
+        int a = 10;
     public:
 };
 
@@ -42,9 +42,22 @@ class Derived : protected Base{
     private:
     protected:
     public:
+        int c;
+        // a and b are accessible
+        void process(){
+            c = a;
+        };
 };
 
 int main() {
+    Base base;
+    Derived derived;
+    derived.process();
+    
+    // this line will give inaccessible error
+    // b cannot be accessed using derived object
+    cout << derived.b << endl;
+    cout << derived.c << endl;
     
     return 0;
 }
