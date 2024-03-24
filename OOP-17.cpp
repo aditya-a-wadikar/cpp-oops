@@ -3,24 +3,28 @@ This code demos following,
     - syntax of inheritance
 
 Syntax
-
     class derived-class : visibility-class base-class-name{
         // data members and methods here
     }
 
+
+Visibility Modes
     - visibility mode can be one of following
-        1. public
-        2. private
-        3. protected
+            1. public
+            2. private
+            3. protected
 
     - default visibility mode is private
     - but, you should mention for better readability
 
-Visibility Modes
+Types of Visibility Mode
     1. Private
         - Public members of base class becomes private members of derived class
+        
     2. Public
         - public members of base class becomes public members of derived class
+
+    3. Protected
 
 Note
     - private members of base class are never inherited in any case
