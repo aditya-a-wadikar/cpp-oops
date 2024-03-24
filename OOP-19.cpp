@@ -43,7 +43,8 @@ class Derived : protected Base{
     protected:
     public:
         int c;
-        // a and b are accessible
+        // only a is accessible
+        // b is private for Base, so it inaccessible in Derived class
         void process(){
             c = a;
         };
